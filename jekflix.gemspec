@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekflix"
-  spec.version       = "4.0.1"
+  spec.version       = "4.0.0"
   spec.authors       = ["Thiago Rossener"]
   spec.email         = ["thiago@rossener.com"]
 
