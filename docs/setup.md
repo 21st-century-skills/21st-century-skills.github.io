@@ -1,108 +1,130 @@
-# Setup
+# Sozlash (Setup)
 
-## Environment
+## Muhit (Environment)
 
-Before starting, make sure you have [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [NodeJS](https://nodejs.org/) installed.
+Boshlashdan oldin [Ruby](https://www.ruby-lang.org/en/documentation/installation/) va [NodeJS](https://nodejs.org/) tizimingizda o‘rnatilganligiga ishonch hosil qiling.
 
-Then install Jekyll:
+Keyin Jekyll'ni o‘rnating:
 
 ```
 $ gem install jekyll
 ```
 
-And install Gulp client:
+So‘ng Gulp mijozini o‘rnating:
 
 ```
 $ npm install gulp-cli -g
 ```
 
-## Installing template
+---
 
-1. Fork the [Jekflix Template](https://github.com/thiagorossener/jekflix-template/fork)
-2. Clone the repo you just forked:
+## Shablonni o‘rnatish (Installing template)
+
+1. [Jekflix Template](https://github.com/thiagorossener/jekflix-template/fork) loyihasini **fork** qiling (nusxa oling)
+2. Endi siz fork qilgan repozitoriyadan nusxa oling:
+
 ```
-$ git clone https://github.com/<your-github-username>/jekflix-template.git
+$ git clone https://github.com/<sizning-github-usernameingiz>/jekflix-template.git
 ```
-3. Access the local project:
+
+3. Loyihaning lokal papkasiga o‘ting:
+
 ```
 $ cd path/to/jekyll-template
 ```
-4. Install npm packages:
+
+4. npm paketlarini o‘rnating:
+
 ```
 $ npm install
 ```
-5. Install Ruby dependencies:
+
+5. Ruby kutubxonalarini o‘rnating:
+
 ```
 $ bundle install
 ```
-6. Build Jekyll:
+
+6. Jekyll loyihasini build qiling (tayyorlash):
+
 ```
 $ bundle exec jekyll build
 ```
-7. Then run Gulp:
+
+7. So‘ngra Gulp'ni ishga tushuring:
+
 ```
 $ gulp
 ```
 
-## Running local
+---
 
-After the steps above, to run Jekyll locally, you'll just need to run Gulp:
+## Mahalliy ishga tushirish (Running local)
+
+Yuqoridagi bosqichlardan so‘ng, Jekyll'ni lokalda ishga tushirish uchun faqat quyidagini bajaring:
+
 ```
 $ gulp
 ```
 
-## Customization
+---
 
-*Jekflix Template* allows you to personalize your site with several settings. See the [docs](settings.md#settings) for more details.
+## Moslashtirish (Customization)
 
-For advanced theme customization, check the directory `_sass` for style files.
+*Jekflix Template* sizga ko‘plab sozlamalar orqali saytni shaxsiylashtirish imkonini beradi. Batafsil ma’lumot uchun [sozlamalar hujjatini](settings.md#settings) ko‘rib chiqing.
 
-## Translations
+Murakkab dizayn (tema) sozlash uchun `_sass` papkasidagi uslub fayllariga murojaat qiling.
 
-In order to translate texts throughout the theme, create a `translations.yml` file in `src/yml` and add the settings below.
+---
 
-> **Note:** If you're using the `gem`, just add it into your `_config.yml`.
+## Tarjimalar (Translations)
 
-```
+Mavzu bo‘ylab matnlarni tarjima qilish uchun `src/yml` papkasi ichida `translations.yml` nomli fayl yarating va quyidagi sozlamalarni kiriting:
+
+> **Eslatma:** Agar siz shablonni `gem` sifatida ishlatayotgan bo‘lsangiz, bu ma’lumotlarni faqat `_config.yml` fayliga qo‘shing.
+
+```yaml
 translations:
   text:
-    new_post: "New Post"
-    see_also: "See also"
-    search: "Search"
-    author: "Author"
-    share: "Share"
-    comments: "Comments"
+    new_post: "Yangi post"
+    see_also: "Shuningdek qarang"
+    search: "Qidirish"
+    author: "Muallif"
+    share: "Ulashish"
+    comments: "Izohlar"
   button:
-    read_now: "Read Now"
-    share_on_twitter: "Share on Twitter"
-    share_on_facebook: "Share on Facebook"
+    read_now: "Hozir o‘qish"
+    share_on_twitter: "Twitter’da ulashish"
+    share_on_facebook: "Facebook’da ulashish"
   pagination:
-    page: "Page"
-    of: "of"
-    next_page: "Next Page"
-    next_post: "Previous Page"
+    page: "Sahifa"
+    of: "dan"
+    next_page: "Keyingi sahifa"
+    next_post: "Oldingi sahifa"
   recommendation:
-    text: "Why don't you read something next?"
-    back_btn: "Go back to top"
+    text: "Nega keyingisini o‘qib ko‘rmaysiz?"
+    back_btn: "Yuqoriga qaytish"
   error_404:
-    title: "Page not found :("
-    message: "I'm sorry. We couldn't find the page you are looking for."
-    image_alt: "404 - Page not found"
+    title: "Sahifa topilmadi :("
+    message: "Kechirasiz. Qidirgan sahifangiz topilmadi."
+    image_alt: "404 - Sahifa topilmadi"
   contact:
-    title: "Talk to me"
-    subject: "New contact!"
-    submit_btn: "Send"
+    title: "Men bilan bog‘laning"
+    subject: "Yangi murojaat!"
+    submit_btn: "Yuborish"
     placeholders:
-      name: "Your name"
-      email: "Your e-mail"
-      message: "Your message"
+      name: "Ismingiz"
+      email: "Elektron pochtangiz"
+      message: "Xabaringiz"
     errors:
-      locale: "en"
-      empty_name: "Name is required"
-      empty_email: "Email is required"
-      invalid_email: "Email is invalid"
-      empty_message: "Message is required"
+      locale: "uz"
+      empty_name: "Ism majburiy"
+      empty_email: "Email majburiy"
+      invalid_email: "Email noto‘g‘ri"
+      empty_message: "Xabar majburiy"
     after_send:
-      title: "Message sent!"
-      message: "Thank you for sending me a message. I'm going to answer ASAP."
+      title: "Xabar yuborildi!"
+      message: "Xabaringiz uchun rahmat. Tez orada javob beraman."
 ```
+
+---
