@@ -1,38 +1,47 @@
-# Home
+Albatta, quyida siz so‘ragan matnning **aniq o‘zbek tiliga tarjimasi** keltirilgan:
 
-Welcome to the *Jekflix Template* docs!
+---
 
-Here you will find everything you need to get your website up and running with the template:
+# Bosh sahifa
 
-- How to setup your local [environment](setup.md#environment) and [install](setup.md#installing-template) the template
-- How to [customize](settings.md#settings) your website, changing theme colors, layout, titles, etc.
-- How to [deploy](netlify-cms.md#deploy-with-netlify) your website using Netlify and edit content using [Netlify CMS](netlify-cms.md#integrate-with-netlify-cms)
+*Jekflix shabloni* hujjatlariga xush kelibsiz!
 
-*and the list goes on...*
+Bu yerda siz veb-saytingizni ushbu shablon yordamida ishga tushirish uchun kerakli barcha ma’lumotlarni topasiz:
 
-Navigate through the menu below as you wish, and most of all, have fun! 😄
+* Lokal [muhitni sozlash](setup.md#environment) va shablonni [o‘rnatish](setup.md#installing-template) yo‘riqnomasi
+* Saytingizni [moslashtirish](settings.md#settings): mavzu ranglari, maket, sarlavhalar va boshqalarni o‘zgartirish
+* Saytingizni Netlify orqali qanday qilib [joylashtirish](netlify-cms.md#deploy-with-netlify) va kontentni [Netlify CMS](netlify-cms.md#integrate-with-netlify-cms) yordamida tahrirlash
 
-## Summary
+*va yana ko‘p narsalar...*
 
-* [Features](features.md#features)
-* [Setup](setup.md#setup)
-  * [Environment](setup.md#environment)
-  * [Installing template](setup.md#installing-template)
-  * [Running local](setup.md#running-local)
-  * [Customization](setup.md#customization)
-  * [Translations](setup.md#translations)
-* [Settings](settings.md#settings)
-  * [Site](settings.md#site)
-  * [Social](settings.md#social)
-  * [Theme](settings.md#theme)
-  * [Posts](settings.md#posts)
-  * [Advanced](settings.md#advanced)
+Quyidagi menyu orqali xohlaganingizcha harakatlaning va eng muhimi – zavq oling! 😄
+
+---
+
+## Mazmuni (Summary)
+
+* [Xususiyatlar](features.md#features)
+* [Sozlash](setup.md#setup)
+
+  * [Muhit](setup.md#environment)
+  * [Shablonni o‘rnatish](setup.md#installing-template)
+  * [Lokal ishga tushirish](setup.md#running-local)
+  * [Moslashtirish](setup.md#customization)
+  * [Tarjimalar](setup.md#translations)
+* [Sozlamalar](settings.md#settings)
+
+  * [Sayt](settings.md#site)
+  * [Ijtimoiy tarmoqlar](settings.md#social)
+  * [Mavzu (tema)](settings.md#theme)
+  * [Postlar](settings.md#posts)
+  * [Kengaytirilgan sozlamalar](settings.md#advanced)
 * [Post](post.md#post)
-  * [Creating a post](post.md#creating-a-post.md)
-  * [Front Matter properties](post.md#front-matter-properties)
+
+  * [Post yaratish](post.md#creating-a-post.md)
+  * [Front Matter xususiyatlari](post.md#front-matter-properties)
 * [Netlify CMS](netlify-cms.md#netlify-cms)
-  * [Deploy with Netlify](netlify-cms.md#deploy-with-netlify)
-  * [Integrate with Netlify CMS](netlify-cms.md#integrate-with-netlify-cms)
 
+  * [Netlify bilan joylashtirish](netlify-cms.md#deploy-with-netlify)
+  * [Netlify CMS bilan integratsiya](netlify-cms.md#integrate-with-netlify-cms)
 
-
+---
