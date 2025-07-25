@@ -1,4 +1,4 @@
-# Ishga tushirish (Setup)
+# Sozlash (Setup)
 
 ## Muhit (Environment)
 
