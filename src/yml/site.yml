@@ -1,14 +1,34 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+formspree_form_id: formspree_form_id
+name: $ 21 coders
+title: $ 21 coders | 21st century skills
+description: $ 21 Coders — o‘zbek dasturchilar jamoasi bo‘lib, zamonaviy
+  texnologiyalarni o‘rganish va o‘rgatish uchun yaratilgan platforma.
 tags:
-  - blog
-  - template
+  - ta'lim
+  - dasturlash
+  - IT kurslar
+  - onlayn ta'lim
+  - web dasturlash
   - jekyll
-  - theme
   - netlify
+  - blog
+  - ta'lim platformasi
+  - uzbek developers
+  - html
+  - css
+  - javascript
+  - open source
+  - coding community
+  - 21 coders
+  - 21-asr ko‘nikmalari
+  - raqamli savodxonlik
+  - talabalar uchun
+  - yosh dasturchilar
+  - portfolio
+  - ta'lim shabloni
+  - developer blog
 show_hero: true
+paginate: 6
 menu:
   - title: Home
     url: /
@@ -18,9 +38,5 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
-# See: https://disqus.com/
+email: jks21stcenturyskills@gmail.com
 disqus_username: disqus_username
-# Contact Form Setting
-# See: https://formspree.io/
-formspree_form_id: formspree_form_id
